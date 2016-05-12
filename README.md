@@ -3,8 +3,8 @@ A data-driven emhancement for test framework TestNG, optimized for RESTful Web s
 * * *
 
 ### Usage
-Take a breif view by an example.
-create a file named **dataContext.json** and input:
+Take a breif view of the lib by an example.
+Create a file named **dataContext.json** and input:
 ```json
 {
   "app": {
@@ -15,7 +15,7 @@ create a file named **dataContext.json** and input:
 ```
 
 
-Then, we can use the data directly from the file in test.
+Then, we can use the data directly from the json file in test.
 ```java
 public class ObjectTest extends AbstractDataContextTest {
     public void testDataContextWithJSON1(@Data("app") JSONObject req) {
