@@ -38,4 +38,9 @@ public class ObjectTest extends AbstractDataContextTest {
 }
 ```
 
-
+### Features
+- Static test data injection with json + vm templates and annotations in tests.
+- Properties mapping.
+- Dynamic test data injection. (data provider that integrated with Spring)
+- Static configuration declarations in json type other than xml.
+- A very simple annotation driven model to build cli apps integrated with Spring.
