@@ -10,7 +10,7 @@
         <junit.version>4.10</junit.version>
         <mysql.jdbc.version>5.1.21</mysql.jdbc.version>
         <javassist.version>3.12.1.GA</javassist.version>
-        <spring.version>[3.2,)</spring.version>
+        <spring.version>3.2</spring.version>
     </properties>
 
     <dependencies>
@@ -134,7 +134,6 @@
 
     </dependencies>
     <build>
-        <finalName>dacon</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
